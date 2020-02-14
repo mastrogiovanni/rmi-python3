@@ -8,7 +8,8 @@ RUN apt-get update && apt-get install -y \
 
 COPY requirements.txt requirements.txt
 
-RUN pip install numpy && \
-	pip install -r requirements.txt && \
+RUN pip install numpy
+
+RUN pip install -r requirements.txt && \
 	rm requirements.txt
 
