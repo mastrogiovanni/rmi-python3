@@ -1,0 +1,11 @@
+nipy
+nipype
+# nibabel
+# nipy
+nilearn
+matplotlib
+seaborn
+sklearn
+opentsdb-py
+# scipy
+bctpy
